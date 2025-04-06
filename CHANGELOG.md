@@ -1,3 +1,18 @@
+## 1.3.0
+- Updated dependencies to fix security vulnerabilities:
+  - Updated cross-spawn from 5.0.1 to 7.0.3
+  - Updated which from 1.2.x to 3.0.1
+  - Removed unused spawn-sync dependency
+- Updated dev dependencies:
+  - Updated assume from 1.5.0 to 2.3.0
+  - Updated mocha from 3.3.0 to 10.2.0
+  - Replaced istanbul with nyc 15.1.0
+  - Removed circular dependency on pre-commit itself
+- Fixed code to work with updated dependencies
+
+## 1.2.2
+- Unreleased
+
 ## 1.0.2
 - Check `/usr/local/bin/node` if we cannot find the binaries in the PATH.
 
